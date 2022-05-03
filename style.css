@@ -155,7 +155,6 @@ button {
 .footer .block2 {
     border: 2px solid white;
     display: flex;
-    justify-content: flex-end;
     border-radius: 8px;
     flex-shrink: 0;
 
