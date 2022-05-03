@@ -99,6 +99,66 @@ button {
 
 .quote {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 525px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    gap: 16px;
+}
+
+.quote .item1 {
+    max-width: 800px;
+    font-weight: 300;
+}
+
+.quote .item2 {
+    font-weight: 800;
+    padding-left: 500px;
+}
+
+.footer {
+    height: 400px;
+    color: #f9faf8;
+
+}
+
+.padding {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 120px 120px;
+    padding: 60px 120px;
+    gap: 30px;
+}
+
+.footer .block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.footer .item1 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.footer .item2 {
+    font-weight: 300;
+}
+
+.footer .block2 {
+    border: 2px solid white;
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 8px;
+
 }
 
 .footer2 {
@@ -108,6 +168,7 @@ button {
     justify-content: center;
     align-items: center;
     height: 80px;
+
 }
 
 .hero-image {
